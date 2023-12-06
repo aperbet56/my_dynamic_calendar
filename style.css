@@ -16,6 +16,7 @@ body {
     align-items: center;
     background-color: #f7f7f7;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 header, footer {
@@ -46,6 +47,13 @@ header h1 {
 
 .container {
     border: 2px solid #696161;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#dycalendar {
+    width: 100%;
+    padding: 20px 20px;
 }
 
 #dycalendar table {
@@ -93,7 +101,7 @@ header h1 {
 
 .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn {
     width: 45px;
-    height: 45px;
+    height: 37px;
     font-size: 2em;
     left: 15px;
     color: #696161;
@@ -104,7 +112,7 @@ header h1 {
 
 .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn {
     width: 45px;
-    height: 45px;
+    height: 37px;
     font-size: 2em;
     right: 15px;
     color: #696161;
